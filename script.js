@@ -6,40 +6,40 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você assiste gameplay do Bistecone ?",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Bom",
+                    "Muito Bom"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "Não, eu sou um bosta",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Meu Deus",
+                    "kkkkkk"
                     ]
             }           
             
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Você gosta de jogar jogos de terror ?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "bacana",
+                    "Tendi"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Não, tenho medo",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "HMmmm",
+                    "QUanta boiolice"
                     ]
             }
         ]
@@ -91,7 +91,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPergunta();
@@ -103,4 +103,8 @@ function mostraResultado(){
     caixaAlternativas.textContent = ""; 
 }
 
+function aleatorio (lista){
+    const posicao = Math.floor(Math.random()* lista.lenght);
+    return lista[posicao];
+}
 mostraPergunta();
