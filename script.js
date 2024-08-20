@@ -45,20 +45,20 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Você prefere que tipo de plataforma ?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"Consoles",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Ih",
+                    "Se gosta de sofrer né"
                     ]
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:"Computador",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Legal",
+                    "Bacana"
                     ]
             }
             
