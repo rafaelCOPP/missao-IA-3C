@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você assiste gameplay do Bistecone ?",
+        enunciado: "Você assiste gameplay de algum youtuber ?",
         alternativas: [
             {
                 texto: "Sim",
