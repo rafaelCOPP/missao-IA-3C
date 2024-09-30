@@ -58,4 +58,64 @@ export const perguntas = [
             
         ]
     },
+    {
+        enunciado: "Você acha justo o preço cobrados nos jogos ?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: [
+                    "sei não",
+                    "ish"
+                    ]
+            },
+            {
+                texto: "Não, eu sou inteligente",
+                afirmacao: [
+                    "Certo",
+                    "correto"
+                    ]
+            }           
+            
+        ]
+    },
+    {
+        enunciado: "Você é a favor da pirataria ?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: [
+                    "Bom",
+                    "Muito Bom"
+                    ]
+            },
+            {
+                texto: "Não, eu sou um bosta",
+                afirmacao: [
+                    "Meu Deus",
+                    "kkkkkk"
+                    ]
+            }           
+            
+        ]
+    },
+    {
+        enunciado: "Você gostaria de trabalhar com a programação de jogos ?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: [
+                    ".",
+                    "Muito Bom"
+                    ]
+            },
+            {
+                texto: "Não",
+                afirmacao: [
+                    ".",
+                    "curioso"
+                    ]
+            }           
+            
+        ]
+    },
 ];
