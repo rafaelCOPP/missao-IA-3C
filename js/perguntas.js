@@ -5,7 +5,6 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "Bom",
                     "Muito Bom"
                     ],
                 proxima: 1,
@@ -13,8 +12,7 @@ export const perguntas = [
             {
                 texto: "Não, eu sou um bosta",
                 afirmacao: [
-                    "Meu Deus",
-                    "kkkkkk"
+                    "Meu Deus"
                     ],
                 proxima: 1, 
             },
@@ -27,7 +25,6 @@ export const perguntas = [
             {
                 texto:"Sim",
                 afirmacao: [
-                    "bacana",
                     "Tendi"
                     ],
                 proxima: 2, 
