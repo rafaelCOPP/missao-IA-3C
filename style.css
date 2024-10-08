@@ -12,7 +12,7 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    font-family: 'Inter', sans-serif; /*add 11/09*/
+    font-family: 'Inter', sans-serif; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ body {
     text-align: center;
     padding: 20px;
 }
-/*add 11/09*/
+
 h1, .caixa-perguntas, .caixa-resultado{
     font-family: 'Chakra Petch', sans-serif;
 }
