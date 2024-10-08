@@ -44,7 +44,7 @@ export const perguntas = [
         enunciado: "Você prefere que tipo de plataforma ?",
         alternativas: [
             {
-                texto:"Consoles",
+                texto:"Consoles <img src='../js/download.png'>",
                 afirmacao: [
                     "Ih",
                     "Se gosta de sofrer né"
