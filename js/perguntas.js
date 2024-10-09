@@ -5,14 +5,14 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "Muito Bom"
+                    "Parabéns"
                     ],
                 proxima: 1,
             },
             {
                 texto: "Não, eu sou um bosta",
                 afirmacao: [
-                    "Meu Deus"
+                    "Parabéns"
                     ],
                 proxima: 1, 
             },
@@ -25,15 +25,14 @@ export const perguntas = [
             {
                 texto:"Sim",
                 afirmacao: [
-                    "Tendi"
+                    " você "
                     ],
                 proxima: 2, 
             },
             {
                 texto: "Não, tenho medo",
                 afirmacao: [
-                    "HMmmm",
-                    "QUanta boiolice"
+                    " você "
                     ],
                 proxima: 2, 
             },
@@ -46,16 +45,14 @@ export const perguntas = [
             {
                 texto:"Consoles <img src='../js/download.png'>",
                 afirmacao: [
-                    "Ih",
-                    "Se gosta de sofrer né"
+                    "terminou "
                     ],
                 proxima: 3, 
             },
             {
                 texto:"Computador",
                 afirmacao: [
-                    "Legal",
-                    "Bacana"
+                    "terminou "
                 ],
                 proxima: 3, 
             },
@@ -68,17 +65,14 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "sei não",
-                    "ish"
+                    "o "
                     ],
                 proxima: 4, 
             },
             {
                 texto: "Não, eu sou inteligente",
                 afirmacao: [
-                    "Certo",
-                    "correto"
-                    ],
+                    "o "                    ],
                 proxima: 4, 
             },     
         ]
@@ -90,16 +84,14 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "Bom",
-                    "Muito Bom"
+                    "jogo "
                     ],
                 proxima: 5, 
             },
             {
                 texto: "Não, eu sou um bosta",
                 afirmacao: [
-                    "Meu Deus",
-                    "kkkkkk"
+                    "jogo "
                     ],
                 proxima: 5, 
             },
@@ -112,15 +104,13 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    ".",
-                    "Muito Bom"
+                    "!!!"
                     ]
             },
             {
                 texto: "Não",
                 afirmacao: [
-                    ".",
-                    "curioso"
+                    "!!!"
                     ] 
             },   
         ]
