@@ -10,7 +10,7 @@ export const perguntas = [
                 proxima: 1,
             },
             {
-                texto: "Não, eu sou um bosta",
+                texto: "Não",
                 afirmacao: [
                     "Parabéns"
                     ],
