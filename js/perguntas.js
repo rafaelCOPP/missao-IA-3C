@@ -5,14 +5,14 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "Parabéns"
+                    "Ao assistir, ele está sendo um inútil"
                     ],
                 proxima: 1,
             },
             {
                 texto: "Não",
                 afirmacao: [
-                    "Parabéns"
+                    "Ao não assistir, ele está sendo produtivo em porcaria nenhuma"
                     ],
                 proxima: 1, 
             },
@@ -25,14 +25,14 @@ export const perguntas = [
             {
                 texto:"Sim",
                 afirmacao: [
-                    " você "
+                    " e que ao gostar de jogo de terror ele não tem medo. "
                     ],
                 proxima: 2, 
             },
             {
                 texto: "Não, tenho medo",
                 afirmacao: [
-                    " você "
+                    " e que ao gostar de jogo de terror ele tem medo. "
                     ],
                 proxima: 2, 
             },
@@ -45,14 +45,14 @@ export const perguntas = [
             {
                 texto:"Consoles",
                 afirmacao: [
-                    "terminou "
+                    "Quando ele escolhe console ele mostra o quão burro ele é,"
                     ],
                 proxima: 3, 
             },
             {
                 texto:"Computador",
                 afirmacao: [
-                    "terminou "
+                    "Quando ele escolhe PC ele mostra o quão sábio ele é, "
                 ],
                 proxima: 3, 
             },
@@ -65,14 +65,15 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "o "
+                    "e que quando ele acha o preço dos jogos justo, ele mostra o quão burro financeiramente é"
                     ],
                 proxima: 4, 
             },
             {
                 texto: "Não, eu sou inteligente",
                 afirmacao: [
-                    "o "                    ],
+                    "e que quando ele acha o preço dos jogos justo, ele mostra o quão burro financeiramente é"
+                ],
                 proxima: 4, 
             },     
         ]
@@ -84,14 +85,14 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "jogo "
+                    ". O cara lembrou que mora no Brasil "
                     ],
                 proxima: 5, 
             },
             {
                 texto: "Não, eu sou um bosta",
                 afirmacao: [
-                    "jogo "
+                    ". O cara esqueceu que mora no Brasil "
                     ],
                 proxima: 5, 
             },
@@ -104,13 +105,13 @@ export const perguntas = [
             {
                 texto: "Sim",
                 afirmacao: [
-                    "!!!"
+                    " mal sabia ele(a) que irá passar fome"
                     ]
             },
             {
                 texto: "Não",
                 afirmacao: [
-                    "!!!"
+                    " mal sabia ele que escapou da fome, amém !"
                     ] 
             },   
         ]
